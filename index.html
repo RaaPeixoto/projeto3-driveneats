@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+</head>
+<body >
+    <div class="top">
+        <div class="logo">
+            <h1>DrivenEats</h1>
+            <h2>Sua Comida em 6 minutos</h2>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        
+            <div class="escolha-title">
+                <h2>Primeiro, seu prato</h2>
+            </div>
+            <div class="cardapio cardapio-prato">
+           
+                <button class="prato1" onclick="selecionarPrato('.prato1')">
+                    <img src="./img/prato1.png">
+                    <h3>Strogonoff Veggie</h3>
+                    <p class="descricao"> Acompanha arroz e batata palha </p>
+                    <p class="preco"> R$ <span class="numero">15.90</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+                <button class="prato2" onclick="selecionarPrato('.prato2')">
+                    <img src="./img/prato2.jfif">
+                    <h3>Suflê de Brócolis</h3>
+                    <p class="descricao"> Acompanha arroz e feijão</p>
+                    <p class="preco"> R$ <span class="numero">17.90</span></p>
+                    <ion-icon name="checkmark-circle" ></ion-icon>
+                </button>
+                <button class="prato3" onclick="selecionarPrato('.prato3')">
+                    <img src="./img/prato3.jpg">
+                    <h3>Lasanha Berinjela</h3>
+                    <p class="descricao"> Acompanha arroz e feijão</p>
+                    <p class="preco"> R$ <span class="numero">18.90</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+                <button class="prato4" onclick="selecionarPrato('.prato4')">
+                    <img src="./img/prato4.jfif">
+                    <h3>Risoto de Queijo </h3>
+                    <p class="descricao"> S/ acompanhamento</p>
+                    <p class="preco"> R$ <span class="numero">19.90</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+
+    
+        </div>
+        <div class="escolha-title">
+            <h2>Agora, sua bebida</h2>
+        </div>
+        <div class="escolha">
+            
+            <div class="cardapio cardapio-bebida">
+                <button class="bebida1" onclick="selecionarBebida('.bebida1')">
+                    <img src="./img/bebida1.jpg">
+                    <h3>Suco Natural</h3>
+                    <p class="descricao"> 300ml</p>
+                    <p class="preco">R$ <span class="numero">4.90</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+                <button class="bebida2" onclick="selecionarBebida('.bebida2')">
+                    <img src="./img/bebida2.webp">
+                    <h3>Refrigerante lata</h3>
+                    <p class="descricao"> 350ml</p>
+                    <p class="preco"> R$ <span class="numero">5.00</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+                <button class="bebida3" onclick="selecionarBebida('.bebida3')">
+                    <img src="./img/bebida3.webp">
+                    <h3> Água c/ e s/ gás</h3>
+                    <p class="descricao"> 500ml</p>
+                    <p class="preco"> R$ <span class="numero">3.00</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+                <button class="bebida4" onclick="selecionarBebida('.bebida4')">
+                    <img src="./img/bebida4.jfif" >
+                    <h3>Refrigerante garrafa</h3>
+                    <p class="descricao"> 500ml</p>
+                    <p class="preco"> R$ <span class="numero">7.00</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+            </div>
+        </div>
+        <div class="escolha-title">
+            <h2>Agora, sua sobremesa</h2>
+        </div>
+        <div class="escolha">
+            
+            <div class="cardapio cardapio-sobremesa">
+                <button  class="sobremesa1" onclick="selecionarSobremesa('.sobremesa1')">
+                    <img src="./img/sobremesa1.jpg">
+                    <h3>Ambrosia</h3>
+                    <p class="descricao"> 200g</p>
+                    <p class="preco"> R$ <span class="numero">5.00</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+                <button class="sobremesa2" onclick="selecionarSobremesa('.sobremesa2')">
+                    <img src="./img/sobremesa2.webp">
+                    <h3>Pudim</h3>
+                    <p class="descricao"> 200g</p>
+                    <p class="preco"> R$ <span class="numero">6.00</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+                <button class="sobremesa3" onclick="selecionarSobremesa('.sobremesa3')">
+                    <img src="./img/sobremesa3.jfif">
+                    <h3>Cheesecake</h3>
+                    <p class="descricao"> 300g</p>
+                    <p class="preco"> R$ <span class="numero">7.00</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+                <button  class="sobremesa4" onclick="selecionarSobremesa('.sobremesa4')" >
+                    <img src="./img/sobremesa4.webp" >
+                    <h3>Mini Churros</h3>
+                    <p class="descricao"> Uma porção</p>
+                    <p class="preco"> R$ <span class="numero">8.00</span></p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="bottom">
+        <button class="pedido-incompleto"> <p> Selecione os 3 itens
+            para fechar o pedido </p></button>
+            <button class="pedido-completo" onclick="pedido ()"> <p> Fechar o pedido </p></button>
+    </div>
+   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

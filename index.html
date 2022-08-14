@@ -132,8 +132,41 @@
     <div class="bottom">
         <button class="pedido-incompleto"> <p> Selecione os 3 itens
             para fechar o pedido </p></button>
-            <button class="pedido-completo" onclick="pedido ()"> <p> Fechar o pedido </p></button>
+            <button class="pedido-completo" onclick="revisarPedido()"> <p> Fechar o pedido </p></button>
     </div>
+    <div class="pagina-opaca">
+    <div class="confirmar-pedido">
+        <div class="confirme-seu-pedido">
+           <div> <h3> Confirme seu pedido</h3></div>
+        </div>
+           <div class="prato-escolhido"> 
+            <p class="nome-prato">Prato</p> 
+            <p class="preco-prato">R$ <span class="preco-confirmar"> 19,00</span></p> 
+        </div>
+
+           <div class="bebida-escolhida">
+            <p class="nome-bebida">Bebida</p> 
+            <p class="preco-bebida" >R$ <span class="preco-confirmar"> 19,00</span></p>
+        </div>
+
+        <div class="sobremesa-escolhida">
+            <p class="nome-sobremesa">Sobremesa</p> 
+            <p class="preco-sobremesa">R$ <span class="preco-confirmar"> 19,00</span></p>
+        </div>
+
+        <div class="preco-total">
+            <p >TOTAL</p>
+            <p class = "soma-preco"> R$ <span class="preco-confirmar"> 19,00</span> </p>
+        </div>
+
+        <button onclick="mensagemWpp()"> <p> Tudo certo, pode pedir!</p> </button>
+        
+        <div class="cancelar">
+            <p onclick="cancelar()">Cancelar</p>
+            
+        </div>
+    </div>
+</div>
    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="script.js"></script>
 </body>
